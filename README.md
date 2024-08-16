@@ -1,6 +1,10 @@
 # Modelling_GER
 
-Gastric Evacuation Rates in Fish: A Step-by-Step Guide with R
+How to Parameterise Gastric Evacuation Rates in Fish using a General Power Function: A Step-by-Step Guide with R
+
+Summary
+The analysis of gastric evacuation (GE) data presents significant challenges because of the complex interdependencies among the factors influencing the process. To address these challenges, a general power function was developed in 1992 and further refined in 1998, providing a robust method for accurately identifying the best-fit function while simultaneously assessing the impact of various potential variables. This paper introduces and illustrates the R code developed for parameter estimation of the general power function, incorporating key variables such as fish size, meal size, and temperature. The statistical procedures outlined in this study are versatile and applicable to a wide range of GE data and can be readily extended to include additional factors influencing the GE process.
+
 Overview
 This repository contains the data and R scripts used in the research article:
 Title: How to Parameterise Gastric Evacuation Rates in Fish using a General Power Function: A Step-by-Step Guide with R

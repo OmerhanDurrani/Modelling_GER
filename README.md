@@ -29,6 +29,7 @@ Variables in the CSV file:
 
 
 R Scripts
+
 This repository contains two R scripts:
 1.	Modelling_GER_1.R: Provides R code for Examples 1-6, with results detailed in Tables 1-7 of the paper.
 2.	Modelling_GER_2.R: Provides R code for Example 7, with results detailed in Tables 8 and 9 of the paper.

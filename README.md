@@ -1,6 +1,7 @@
 # Modelling_GER
 
 Overview
+
 This repository contains the data and R scripts used in the research article:
 Title: How to Parameterise Gastric Evacuation Rates in Fish using a General Power Function: A Step-by-Step Guide with R
 Author: Ömerhan Dürrani

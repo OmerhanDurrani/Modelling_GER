@@ -1,46 +1,52 @@
-# Modelling_GER
+# **Modelling_GER**
 
-Overview
+## **Overview**
+This repository contains the dataset and R scripts used in the research article:  
 
-This repository contains the data and R scripts used in the research article:
-Title: How to Parameterise Gastric Evacuation Rates in Fish using a General Power Function: A Step-by-Step Guide with R
-Author: Ömerhan Dürrani
+### **Title:**  
+**Modelling Gastric Evacuation Rates in Fish With a General Power Function: A Step-by-Step Guide to Parameter Estimation and Analysis Using R Statistical Software**  
 
-Summary
-The analysis of gastric evacuation (GE) data presents significant challenges because of the complex interdependencies among the factors influencing the process. To address these challenges, a general power function was developed in 1992 and further refined in 1998, providing a robust method for accurately identifying the best-fit function while simultaneously assessing the impact of various potential variables. This paper introduces and illustrates the R code developed for parameter estimation of the general power function, incorporating key variables such as fish size, meal size, and temperature. The statistical procedures outlined in this study are versatile and applicable to a wide range of GE data and can be readily extended to include additional factors influencing the GE process.
+### **Author:**  
+**Ömerhan Dürrani**  
 
+## **Summary**  
+Accurate modelling of gastric evacuation (**GE**) is essential for optimising feeding strategies in aquaculture and improving predator–prey interaction models. **GE analysis is complex** due to the interdependence of multiple variables. To address this, a **general power function** was developed in 1992 and refined in 1998 using **non-linear regression techniques**. This method identifies the best-fit evacuation function while assessing key predictor variables. The study demonstrates the application of **R statistical software** for parameter estimation, analysing the effects of **fish size, meal size, and temperature** on **gastric evacuation rates (GER)** in **brown trout (*Salmo trutta*)** and **rainbow trout (*Oncorhynchus mykiss*)**. These statistical methods are **versatile**, suitable for a wide range of GE datasets, and can be expanded to include additional factors, making them valuable tools in **fisheries management, ecological modelling, and aquaculture**.  
 
+## **Citation**  
+> **Dürrani, Ö. (2025).** Modelling Gastric Evacuation Rates in Fish With a General Power Function: A Step-by-Step Guide to Parameter Estimation and Analysis Using R Statistical Software.  
+> *Aquaculture Research, 2025(1), 7309111.*  
+> [https://onlinelibrary.wiley.com/doi/full/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  
 
-Dataset
+---
 
-The dataset (GER_data.csv) includes gastric evacuation (GE) data for brown trout (Salmo trutta) from Dürrani and Seyhan (2021) (expno 1-5) and rainbow trout (Oncorhynchus mykiss) from Dürrani (2022) (expno 6-14).
+## **Dataset**  
+The dataset (**GER_data.csv**) contains GE data from:  
+- **Brown trout (*Salmo trutta*)** – Experiments 1–5 (*Dürrani & Seyhan, 2021*)  
+- **Rainbow trout (*Oncorhynchus mykiss*)** – Experiments 6–14 (*Dürrani, 2022*)  
 
-Variables in the CSV file:
+### **CSV Variables:**  
+- **`expno`**: Experiment number  
+- **`temp`**: Temperature (°C)  
+- **`predlcm`**: Fish total length (cm)  
+- **`predw`**: Fish total weight (g)  
+- **`sow`**: Meal size at an empty stomach  
+- **`stw`**: Weight of stomach contents at a given postprandial time (hours)  
 
-•	expno: Experiment number
+---
 
-•	temp: Temperature in °C
+## **R Scripts**  
+This repository includes two R scripts:  
 
-•	predlcm: Fish total length in cm
+1. **`Modelling_GER_1.R`** – Covers Examples 1–6, corresponding to **Tables 1–7** in the paper.  
+2. **`Modelling_GER_2.R`** – Covers Example 7, corresponding to **Tables 8 and 9** in the paper.  
 
-•	predw: Fish total weight in g
+---
 
-•	sow: Meal size consumed by the fish at empty stomach
+## **Excel Guide**  
+An **Excel file** is provided for constructing **Figure 10** and **Figures 11a & 11b**, summarising the **GER model** for both species.  
 
-•	stw: Weight of the recovered stomach contents at a given postprandial time t (hours)
+---
 
-
-
-R Scripts
-
-This repository contains two R scripts:
-1.	Modelling_GER_1.R: Provides R code for Examples 1-6, with results detailed in Tables 1-7 of the paper.
-2.	Modelling_GER_2.R: Provides R code for Example 7, with results detailed in Tables 8 and 9 of the paper.
-
-
-Excel Guide
-
-The Excel file included in this repository provides a step-by-step guide for constructing Figure 1, Figure 2a, and Figure 2b using the summarized GER model developed for brown trout and rainbow trout.
-
-Interpretation of Results
-For detailed interpretation of the output results, please refer to the research article.
+## **Results Interpretation**  
+For detailed explanations, refer to the full research article:  
+[https://onlinelibrary.wiley.com/doi/full/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  

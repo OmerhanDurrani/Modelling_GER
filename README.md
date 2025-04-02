@@ -37,8 +37,8 @@ The dataset (**GER_data.csv**) contains GE data from:
 ## **R Scripts**  
 This repository includes two R scripts:  
 
-1. **`Modelling_GER_1.R`** – Covers Examples 1–6, corresponding to **Tables 1–7** in the paper.  
-2. **`Modelling_GER_2.R`** – Covers Example 7, corresponding to **Tables 8 and 9** in the paper.  
+1. **`Modelling_GER_1.R`** – Covers Examples 1–6, corresponding to **Figures 1–7** in the paper.  
+2. **`Modelling_GER_2.R`** – Covers Example 7, corresponding to **Figures 8 and 9** in the paper.  
 
 ---
 

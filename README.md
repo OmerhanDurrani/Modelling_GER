@@ -15,7 +15,7 @@ Accurate modelling of gastric evacuation (**GE**) is essential for optimising fe
 ## **Citation**  
 > **Dürrani, Ö. (2025).** Modelling Gastric Evacuation Rates in Fish With a General Power Function: A Step-by-Step Guide to Parameter Estimation and Analysis Using R Statistical Software.  
 > *Aquaculture Research, 2025(1), 7309111.*  
-> [https://onlinelibrary.wiley.com/doi/full/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  
+> [https://doi.org/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  
 
 ---
 
@@ -49,4 +49,4 @@ An **Excel file** is provided for constructing **Figure 10** and **Figures 11a &
 
 ## **Results Interpretation**  
 For detailed explanations, refer to the full research article:  
-[https://onlinelibrary.wiley.com/doi/full/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  
+[https://doi.org/10.1155/are/7309111](https://doi.org/10.1155/are/7309111)  
